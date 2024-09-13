@@ -1,0 +1,135 @@
+body {
+    background-color: skyblue;
+    background-image: url("../Media/Images/technology.webp");
+    background-size: auto;
+    background-repeat:initial;
+
+}
+
+nav {
+    background-color: rgba(5, 5, 41, 0.548);
+    border-radius: 25px;
+}
+
+nav ul {
+    padding-bottom: 100px;
+    overflow: auto;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    margin-top: 50px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    margin: 50px
+}
+
+nav li a:hover {
+    color: gray;
+
+}
+
+nav ul form {
+    padding-top: 50px;
+}
+
+nav i {
+    text-align: left;
+    text-size-adjust: 20px;
+}
+.sec01 {
+    background-color: rgb(173, 213, 240);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 180px;
+    margin-left: 90px;
+}
+
+footer {
+    color: white;
+    background: rgba(5, 5, 41, 0.822);
+    height: auto;
+    font-family: "sans";
+    padding-top: 40px;
+}
+
+footer ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+footer p {
+    text-align: center;
+    font-size: large;
+}
+
+footer h3 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer ul a {
+    color: white;
+}
+
+footer ul a:hover {
+    color: aqua;
+}
+
+footer p span {
+    color: lightskyblue;
+}
+
+form {
+    color: white;
+    text-align: center;
+    font-size: smaller;
+}
+
+body h1 {
+    text-align: center;
+    background-color: rgb(173, 213, 240);
+    border: 1px solid black;
+}
+
+.sec02 {
+    background-color: rgb(173, 213, 240);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 180px;
+    margin-left: 90px;
+}
+
+
+.sec03 {
+    background-color: rgb(173, 213, 240);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 180px;
+    margin-left: 90px;
+}
+
+section {
+    background-color: rgb(173, 213, 240);
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 180px;
+    margin-left: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form01{
+    color: black;
+}

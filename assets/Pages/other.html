@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/Style/style.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid blue
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../Pages/basic.html">Basic Tags</a></li>
+                <li><a href="../Pages/format.html">Formatting Tags</a></li>
+                <li><a href="../Pages/form.html">Form Tags</a></li>
+                <li><a href="../Pages/other.html">Other Tags</a></li>
+            </ul>
+            <form>
+                <label for="search_query">Search</label>
+                <input type="search" name="search" id="search_query">
+                <input type="submit" value="Go">
+            </form>
+        </nav>
+
+    </header>
+    <section>
+        <h1 style="text-align: center;" style="color:aliceblue">Other Tags</h1>
+        <h2>Images Tags</h2>
+        <p>
+            Images tag are used to insert and modify images.
+        <ul>
+            <li>Img tag inserts image.
+                It contains src attribute which define a source.</li>
+            <li>Figcaption tag is used to defines figure caption.</li>
+            <li>Figure tag contains content like a container.</li>
+            <li>Picture tag contains pictures like a container.</li>
+        </ul>
+        </p>
+        <h2>Image Tag</h2>
+        <h3>Examples</h3>
+        <img src="../Media/Images/lion.jpg" width="150" height="200">
+        <br>
+        <h4>figcaption and figure</h4>
+        <figure>
+            <img src="../Media/Images/camera.jpg" height="150" width="200">
+            <figcaption>camera in hands</figcaption>
+        </figure>
+        <hr>
+
+    </section>
+    <section>
+        <h2>Audio and Video Tags</h2>
+
+        <p>
+            Audio and video tag are used insert and modify audios and videos.
+        <ul>
+            <li>Audio tag is used to insert audio.
+                It contain src attribute which define a source and type attribute which define type of media.</li>
+            <li>Source tag defines multiple media resources.</li>
+            <li>Video tag is used to insert video.</li>
+        </ul>
+        </p>
+        <h3>Examples</h3>
+        <h4>Audio Tag</h4>
+        <audio controls>
+            <source src="../Media/Audios/bike_firing.mp3">
+        </audio>
+        <audio controls>
+            <source src="../Media/Audios/train_horn.mp3">
+        </audio>
+        <h4>Video Tags</h4>
+        <video width="150" height="200" controls>
+            <source src="../Media/Videos/nature01.mp4">
+        </video>
+    </section>
+    <section>
+        <h2>Links Tags </h2>
+        <p>
+            Links tags make relationship between doucment and external oe internal source.
+        <ul>
+            <li>Anchor tag defines a hyperlink.
+                It consists of attribute href which indicate link destination.</li>
+            <li>Link tag is used to link doucment with external resources.</li>
+            <li>Nav tag defines navigation links.</li>
+        </ul>
+        </p>
+        <h3>Examples</h3>
+        <h4>Anchor Tag</h4>
+        <a href="www.W3Schools.com">Visit Website</a><br><a href="mailto:criminal87654@gmail.com">Gmail</a>
+        <h4>Nav tag</h4>
+        <a href="../../index.html">Home</a>
+    </section>
+    <section>
+        <h2>Lists Tags</h2>
+        <p>List tag are used to create lists.
+        <ul>
+            <li>Ul tag defines the unordered list.</li>
+            <li>Ol tag defines the ordered list.</li>
+            <li>Li tag defines list term.</li>
+        </ul>
+        </p>
+        <h3>Examples</h3>
+        <h4>Order List</h4>
+        <ol>
+            Cars Name
+            <li>Mercedes
+            <li>BMW
+                <ol>
+                    <li>BMW 3 Series</li>
+                    <li>BMW X1</li>
+                </ol>
+            <li>Porsche</li>
+            <li>Toyota</li>
+        </ol>
+        <h4>Unorder list</h4>
+        <ul>
+            Mobiles name
+            <li>Vivo</li>
+            <li>Apple
+                <ul>
+                    <li>IPhone 14 Pro Max</li>
+                    <li>IPhone 13 Pro</li>
+                </ul>
+            <li>Huawei</li>
+            <li>Samsung</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Tables tags</h2>
+        <p>
+            Table tags are used to insert and modify tables.
+        <ul>
+            <li>Table tag is used to inserts table.</li>
+            <li>Caption tag defines a table caption.</li>
+            <li>Th tag defines table header.</li>
+            <li>Tr tag defines table rows.</li>
+            <li>Td tag defines table details.</li>
+            <li>Thead tag defines header content.</li>
+            <li>Tbody tag defines body content.</li>
+            <li>Tfoot tag defines footer content.</li>
+        </ul>
+        </p>
+        <h3>Examples</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Address</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>Azan</td>
+                <td>Nineth</td>
+                <td>Farid Town</td>
+                <td>9876487</td>
+            </tr>
+            <tr>
+                <td>Ramish</td>
+                <td>Nineth</td>
+                <td>Fateh Sher Colony</td>
+                <td>9874356</td>
+            </tr>
+            <tr>
+                <td>Fraz</td>
+                <td>Nineth</td>
+                <td>Jeewan City</td>
+                <td>9876532</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Styles and Semantics Tags</h2>
+        <p>
+            These tags inserts styling.Here are some tags given below:
+        <ul>
+            <li>Style tag defines style of doucment.</li>
+            <li>Div tag defines a section in document.</li>
+            <li>Span tag defines a header for a section.</li>
+            <li>Header tag defines header for a doucment.</li>
+            <li>Footer tag defines footer of a document.</li>
+            <li>Mian tag defines the main content of a doucment.</li>
+            <li>Section tag defines a section in a document.</li>
+            <li>Article tag defines article.</li>
+            <li>Aside tag defines a side bar in document.</li>
+        </ul>
+        </p>
+    </section>
+</body>
+
+</html>
